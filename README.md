@@ -72,9 +72,6 @@ Feel free to explore the notebook and adapt the approach to other detection issu
 
 ---
 
-For more details, you can read the full documentation and code implementation in the provided notebook.
----
-
 ## 📧 Contact
 
 **Author:** Pranjal Pandey
